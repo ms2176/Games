@@ -1,14 +1,15 @@
-# Java Game Lounge 
+# Java Game Lounge
 
-This project implements a collection of 3 simple games in Java as a course assignment.
+## Overview
+This project implements a collection of 3 simple games in Java as a course assignment. Each game demonstrates fundamental Java OOP concepts such as inheritance, polymorphism, abstraction, and code organization.
 
 ## Games
 
-The following games are included:
-
-- **Dice Roller** - Rolls a chosen number of dice.
-- **Higher or Lower** - Guess a random number between 0-100. 
-- **Hangman** - Classic hangman word guessing game.
+| Game              | Description                                                          | Key Features                                                                                  |
+|-------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| 🎲 Dice Roller    | Rolls a chosen number of dice.                                       | 🎲 Choose number of dice<br>🔄 Random dice rolls                                              |
+| 🔢 Higher or Lower| Guess a random number between 0-100.                                 | ❓ Guess a number<br>🔢 Random number generation                                               |
+| 🔤 Hangman        | Classic hangman word guessing game.                                  | 📜 Load word list from file<br>❌ Incorrect guesses count<br>💡 Clue reveal with each guess    |
 
 ## Usage
 
@@ -19,7 +20,7 @@ Each game extends the abstract `GameSuperclass`, enforcing the implementation of
 ## What I Learned
 
 - Implementing reusable parent/child class relationships in Java
-- Basics of reading user input and processing it each round 
+- Basics of reading user input and processing it each round
 - Separating core game logic from the main runner class
 - Random number generation
 - File I/O to load word list (Hangman)
